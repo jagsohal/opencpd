@@ -1,9 +1,9 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "course.html",
     "versionFirst": "2.11.1",
-    "versionPublish": "4.6.2",
-    "name": "Outstanding PE Lessons (V2)",
+    "versionPublish": "4.10.5",
+    "name": "OPENCPD",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -26,9 +26,15 @@
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/logo-white-128x64-80.png",
+    "favicon": "",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-80251672-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "uniqCompNum": 131
+    "uniqCompNum": 144,
+    "siteFonts": [],
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -72,7 +78,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -132,20 +138,19 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "paddingTop": "4",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/bruno-nascimento-149663-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/primary-schoosfsafafl-sports-day-009-snapseed-2060x1236-84-2000x1200-44.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
             "bgVideoRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/embed/t2Zp8vKIofw?rel=0&amp;showinfo=0&autoplay=0&loop=0",
-              "rawUrl": "https://youtu.be/t2Zp8vKIofw",
               "width": 1280,
-              "height": 720
+              "height": 720,
+              "url": "https://www.youtube.com/embed/OG-4AOgNs3c?rel=0&autoplay=0&loop=0"
             },
             "overlay": true,
             "overlayColor": "#151515",
@@ -160,7 +165,7 @@
           },
           "title": "<b>#opencpd</b>",
           "text": "Changing the design, content, delivery and evaluation of CPD for PE teachers and youth sport coaches.<br>",
-          "buttons": "<a data-app-btn=\"true\" href=\"index.html#slider-18\" class=\"btn btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\">for teachers</a> <a data-app-btn=\"true\" href=\"coaches.html\" class=\"btn btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\">for coaches</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"course.html\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">NEW COURSE</a> <a data-app-btn=\"true\" href=\"course.html\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\">SIGN UP</a> ",
           "title1": "Innovative",
           "title2": "Accessible",
           "title3": "Evidence Based",
@@ -844,8 +849,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -883,7 +888,7 @@
     "coaches.html": {
       "settings": {
         "title": "coaches",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -910,6 +915,103 @@
           },
           "title": "The Coach Hub",
           "text": "Here you will find a wealth of resources, videos and articles"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "menu",
+          "_styles": {
+            ".navbar-header a": {
+              "font-size": "8px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".simplemenu": {
+              "background-color": "#2c2c2c",
+              "transition": "background 0.2s"
+            },
+            ".navbar-inverse": {
+              "background": "transparent"
+            },
+            ".navbar-fixed-top": {},
+            ".navbar-inverse.scrolled": {
+              "background-color": "#2c2c2c",
+              "transition": "background 0.2s"
+            },
+            ".navbar-toggle": {},
+            ".navbar-collapse": {},
+            ".collapse": {},
+            ".navbar-collapse.in": {},
+            ".nav li  a": {},
+            ".navbar-login": {},
+            ".navbar-right": {},
+            ".mbr-navbar__brand-img mbr-brand__img": {},
+            ".navbar-collapse.collapse.in": {
+              "background-color": "#2c2c2c",
+              "transition": "background 0.2s"
+            },
+            ".navbar-toggle .icon-bar": {
+              "background": "#ffffff !important"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "logo": false,
+            "brandName": false,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"navbar-brand brand text-white\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">OPENCPD.net</a>",
+          "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"freecourse.html\" data-toolbar=\"-mbrBtnMove\">free course</a></li>",
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html\">#opencpd</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"aboutus.html\">About us</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"contactus.html\">Contact</a> <a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">spotlight articles</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"openconferences.html\" aria-expanded=\"false\">open conferences</a> </li>"
         },
         {
           "title4": "Flashy Look",
@@ -1193,8 +1295,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -1560,7 +1662,7 @@
     "articlesofthemonth.html": {
       "settings": {
         "title": "articlesofthemonth",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -1727,7 +1829,7 @@
               "color": "#fff"
             },
             ".s2-box:hover i": {
-              "color": "#ffd775"
+              "color": "#acacac"
             }
           },
           "_anchor": "features5-c",
@@ -1740,7 +1842,7 @@
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffd775",
+            "bgColor": "#acacac",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1787,7 +1889,7 @@
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffd775",
+            "bgColor": "#e91e63",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1867,8 +1969,7 @@
           "_styles": {
             "SPAN": {
               "text-align": "right",
-              "color": "#080000",
-              "font-size": "60px"
+              "color": "#8bc34a"
             },
             "H3": {
               "text-align": "center",
@@ -2073,7 +2174,7 @@
           "_name": "msg-box18",
           "_styles": {
             "H3": {
-              "color": "#080000",
+              "color": "#ffc107",
               "font-family": "'Slabo 27px', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px"
             }
@@ -2251,7 +2352,7 @@
           "_name": "msg-box18",
           "_styles": {
             "H3": {
-              "color": "#080000"
+              "color": "#f44336"
             }
           },
           "_anchor": "msg-box18-33",
@@ -2456,8 +2557,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -2495,7 +2596,7 @@
     "aboutus.html": {
       "settings": {
         "title": "aboutus",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -2663,8 +2764,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -2703,7 +2804,7 @@
       "settings": {
         "footer_custom": "",
         "title": "padlet",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -2827,8 +2928,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -2867,7 +2968,7 @@
       "settings": {
         "footer_custom": "<a class=\"twitter-timeline\" href=\"https://twitter.com/VGoodyear\">Tweets by VGoodyear</a>\n<script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>",
         "title": "contactus",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -2920,7 +3021,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -2990,8 +3091,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -3029,7 +3130,7 @@
     "freecourse.html": {
       "settings": {
         "title": "freecourse",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
@@ -3286,8 +3387,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -3325,7 +3426,7 @@
     "Diagnose.html": {
       "settings": {
         "title": "Diagnose",
-        "order": 21
+        "order": 20
       },
       "components": [
         {
@@ -3493,8 +3594,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -3532,7 +3633,7 @@
     "respond.html": {
       "settings": {
         "title": "respond",
-        "order": 12
+        "order": 11
       },
       "components": [
         {
@@ -3700,8 +3801,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -3739,7 +3840,7 @@
     "evaluate.html": {
       "settings": {
         "title": "evaluate",
-        "order": 14
+        "order": 13
       },
       "components": [
         {
@@ -3909,8 +4010,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -3948,7 +4049,7 @@
     "spotifyplaylist.html": {
       "settings": {
         "title": "spotifyplaylist",
-        "order": 15
+        "order": 14
       },
       "components": [
         {
@@ -4076,7 +4177,7 @@
           "text1": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
           "text2": "<p>Watch<i class=\"icon-play2\"></i>Video</p>",
           "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-primary\">Purchase Now</a><a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-default btn-border\">Learn More</a>",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted\" style=\"background-image: url(https://dl.dropboxusercontent.com/u/56587288/My%20Websites/OpenCPD/assets/images/shape-wallpaper-4-3840x2400-16.jpg);\">\n    <div class=\"intro intro2\" style=\"padding-top: 160px; padding-bottom: 140px;\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.50; background-color: rgb(21, 21, 21);\"></div>\n        <div class=\"container\">\n            <div class=\"row center-content\">\n                <div class=\"col-md-10 col-md-offset-1 text-center\">\n                    <h3 class=\"mbr-editable-content\" code-editable-id=\"18\">The<strong> PE MOOC</strong> Playlist</h3>\n                    <p class=\"mbr-editable-content\" style=\"font-family: Raleway, sans-serif;\" code-editable-id=\"19\">Put on your headphones and set volume to MAX. Maxium enjoyment.&nbsp;</p>\n\n<iframe src=\"https://open.spotify.com/embed/user/opencpdpess/playlist/1TqVNSNQ41ZK7M1X4xCpqY\" width=\"100%\" height=\"1000\" frameborder=\"0\" allowtransparency=\"true\"></iframe>\n\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted\" style=\"background-image: url(https://dl.dropboxusercontent.com/u/56587288/My%20Websites/OpenCPD/assets/images/shape-wallpaper-4-3840x2400-16.jpg);\">\n    <div class=\"intro intro2\" style=\"padding-top: 160px; padding-bottom: 140px;\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.50; background-color: rgb(21, 21, 21);\"></div>\n        <div class=\"container\">\n            <div class=\"row center-content\">\n                <div class=\"col-md-10 col-md-offset-1 text-center\">\n                    <h3 class=\"mbr-editable-content\" code-editable-id=\"289\">The<strong> PE MOOC</strong> Playlist</h3>\n                    <p class=\"mbr-editable-content\" style=\"font-family: Raleway, sans-serif;\" code-editable-id=\"290\">Put on your headphones and set volume to MAX. Maxium enjoyment.&nbsp;</p>\n\n<iframe src=\"https://open.spotify.com/embed/user/opencpdpess/playlist/1TqVNSNQ41ZK7M1X4xCpqY\" width=\"100%\" height=\"1000\" frameborder=\"0\" allowtransparency=\"true\"></iframe>\n\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
@@ -4096,8 +4197,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -4135,7 +4236,7 @@
     "twitter.html": {
       "settings": {
         "title": "twitter",
-        "order": 16
+        "order": 15
       },
       "components": [
         {
@@ -4326,8 +4427,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -4365,7 +4466,7 @@
     "openconferences.html": {
       "settings": {
         "title": "openconferences",
-        "order": 17
+        "order": 16
       },
       "components": [
         {
@@ -4788,8 +4889,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -4827,7 +4928,7 @@
     "whattheysay.html": {
       "settings": {
         "title": "whattheysay",
-        "order": 18
+        "order": 17
       },
       "components": [
         {
@@ -5002,7 +5103,7 @@
     "signup.html": {
       "settings": {
         "title": "Google Form",
-        "order": 19
+        "order": 18
       },
       "components": [
         {
@@ -5118,8 +5219,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -5168,7 +5269,7 @@
     "forum.html": {
       "settings": {
         "title": "forum",
-        "order": 20
+        "order": 19
       },
       "components": [
         {
@@ -5221,7 +5322,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -5236,8 +5337,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -5327,7 +5428,7 @@
     "TWITTERCHAT.html": {
       "settings": {
         "title": "TWITTERCHAT",
-        "order": 6
+        "order": 5
       },
       "components": [
         {
@@ -5380,7 +5481,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -5464,8 +5565,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -5507,7 +5608,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -6223,8 +6324,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -6263,7 +6364,7 @@
     "Digital Case Studies .html": {
       "settings": {
         "title": "Digital Case Studies ",
-        "order": 5,
+        "order": 4,
         "meta_descr": "Digital Case Studies "
       },
       "components": [
@@ -6286,7 +6387,7 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
@@ -6302,7 +6403,7 @@
           },
           "title": "<b>Digital </b>Case Studies&nbsp;",
           "text": "Watch the latest evidence-based practices in our short films.",
-          "buttons": "<a data-app-btn=\"true\" href=\"Socialmedia.html\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Young People and Social Media<i class=\"fa fa-play\"></i></a>   ",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://www.scribd.com/document/369187114/The-Impact-of-Social-Media-on-Young-People-s-Health-and-Wellbeing-Evidence-Guidelines-and-Actions\" class=\"btn btn-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIEW PDF<i class=\"fa fa-play\"></i></a> <a data-app-btn=\"true\" href=\"Socialmedia.html\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">watch the case studY VIDEOs&nbsp;<i class=\"fa fa-play\"></i></a>  ",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -6363,8 +6464,8 @@
             }
           },
           "title": "<b>Case Studies and Guidelines </b>on Young People’s Uses of Social Media",
-          "text": "These evidence-based case studies and guidelines demonstrate the varying ways young people use social media and the impacts of this behaviour on their health and wellbeing.&nbsp;<br><br>The case studies are based on evidence generated with 1346 young people in the UK who worked with us to communicate their experiences of social media. <br><br>The guidelines were constructed with an multi-disciplinary and multi-sector advisory board of key stakeholders who have a responsibility for young people’s health and wellbeing. This work was supported by the Wellcome Trust [201601/Z/16/Z].<br><br><b>The case studies and guidelines are relevant to adults who have a responsibility for young people’s health and wellbeing. <br></b><br>If you would like to use these guidelines and videos in your professional organisation or would like more information about the project please contact <a href=\"mailto:v.a.goodyear@bham.ac.uk\" class=\"text-info\">Dr Victoria Goodyear.</a>",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://epapers.bham.ac.uk/3070/\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GUIDELINES<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"http://dx.doi.org/10.1080/13573322.2017.1423464\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PAPER<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"Socialmedia.html#msg-box10-39\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIDEOs<i class=\"fa fa-android\"></i></a>",
+          "text": "These evidence-based case studies and guidelines demonstrate the varying ways young people use social media and the impacts of this behaviour on their health and wellbeing. .<br><br>The case studies are based on evidence generated with 1346 young people in the UK who worked with us to communicate their experiences of social media. <br><br>The guidelines were constructed with an multi-disciplinary and multi-sector advisory board of key stakeholders who have a responsibility for young people’s health and wellbeing. This work was supported by the Wellcome Trust [201601/Z/16/Z].<br><br><b>The case studies and guidelines are relevant to adults who have a responsibility for young people’s health and wellbeing. <br></b><br>If you would like to use these guidelines and videos in your professional organisation or would like more information about the project please contact <a href=\"mailto:v.a.goodyear@bham.ac.uk\" class=\"text-info\">Dr Victoria Goodyear.</a>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GUIDELINES<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"#top\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PAPER<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"Socialmedia.html\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIDEOs<i class=\"fa fa-android\"></i></a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
@@ -6520,7 +6621,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
           "_anchor": "dropdown-menu-1w"
         },
         {
@@ -6535,8 +6636,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -6628,7 +6729,7 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
           "_anchor": "dropdown-menu-31"
         },
         {
@@ -6643,8 +6744,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -6714,8 +6815,8 @@
               "loop": false
             }
           },
-          "title": "<b>DIGTAL CASE STUDIES</b> OF YOUNG PEOPLE'S USES OF SOCIAL MEDIA",
-          "text": "<b>These evidence-based case studies demonstrate the varying ways young people use social media and the impacts of this behaviour.&nbsp;</b><br><b><br></b>For more information about this project <i><a href=\"Guidelines.html\">click here:</a></i><b><br></b><b><br></b>These evidence-based case studies demonstrate the varying ways young people use social media and the impacts of this behaviour on their health and wellbeing. The case studies are based on evidence generated with 1346 young people in the UK who worked with us to communicate their experiences of social media. This work was supported by the Wellcome Trust [201601/Z/16/Z]. The case studies are relevant to adults who have a responsibility for young people’s health and wellbeing. <br><br>If you would like to use these videos in your professional organisation or would like more information about the project please contact <a href=\"mailto:v.a.goodyear@bham.ac.uk\">Dr Victoria Goodyear</a><br>",
+          "title": "CASE STUDIES OF YOUNG PEOPLE'S USE OF SOCIAL MEDIA",
+          "text": "<b>These evidence-based case studies and guidelines demonstrate the varying ways young people use social media and the impacts of this behaviour.</b><b><br></b><b><br></b>These evidence-based case studies demonstrate the varying ways young people use social media and the impacts of this behaviour on their health and wellbeing. The case studies are based on evidence generated with 1346 young people in the UK who worked with us to communicate their experiences of social media. This work was supported by the Wellcome Trust [201601/Z/16/Z].<br><br>The case studies are relevant to adults who have a responsibility for young people’s health and wellbeing. If you would like to use these guidelines and videos in your professional organisation or would like more information about the project please contact <a href=\"mailto:v.a.goodyear@bham.ac.uk\">Dr Victoria Goodyear</a><br>",
           "buttons": "<a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-mobile\"></i><span class=\"mbr-text-font\">Available at</span>AppStore</a><a class=\"mbr-title-font mbr-primary-bgColor\" data-app-btn=\"true\" href=\"#\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-google\"></i> <span class=\"mbr-text-font\">Get the app for</span>Gofdeplay</a>",
           "alias": "unicore/components",
           "_tags": [
@@ -6853,7 +6954,7 @@
               "loop": false
             }
           },
-          "title6": "Support from Adults",
+          "title6": "A SOCIAL MEDIA CHAT ABOUT RISK",
           "info6": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
           "text6": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
           "alias": "unicore/components",
@@ -6867,113 +6968,14 @@
               "text-align": "center"
             }
           }
-        },
-        {
-          "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/conclusion-snapshot-9-oct-2017-165955-1400x787.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media3": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "media4": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-3h"
         }
       ]
     },
-    "Guidelines.html": {
+    "course.html": {
       "settings": {
-        "title": "Guidelines/Resources",
-        "order": 2,
-        "meta_descr": "Guidelines/Resources"
+        "title": "course",
+        "order": 1,
+        "meta_descr": "\"My teachers don't have a clue\""
       },
       "components": [
         {
@@ -6996,11 +6998,6 @@
               "color": "#000000"
             }
           },
-          "alias": "dropdown-menu",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "dropdown-menu",
           "_params": {
             "logo": false,
             "showBrand": true,
@@ -7012,6 +7009,7 @@
             "fontName": {},
             "fontColor": "#000000"
           },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -7025,7 +7023,11 @@
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#opencpd</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"articlesofthemonth.html\" aria-expanded=\"false\">Open Articles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Guidelines.html\" aria-expanded=\"false\">Guidelines/Resources</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Digital Case Studies .html\" aria-expanded=\"false\">Digital Case Studies </a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contactus.html\" aria-expanded=\"false\">Contact us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">TEACHERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-default-outline btn-default\" href=\"https://mobirise.com/\">COACHES</a></li>",
+          "alias": "dropdown-menu",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "dropdown-menu",
           "_anchor": "dropdown-menu-3c"
         },
         {
@@ -7040,8 +7042,8 @@
             "showTitle": true,
             "showLogo": true,
             "progress": "95",
-            "paddingTop": "1",
-            "paddingBottom": "0",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/11.jpg",
             "parallax": false,
@@ -7079,12 +7081,11 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showMedia": false,
             "showButtons": true,
+            "paddingTop": "3",
+            "paddingBottom": 2,
             "bgImageRadio": true,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImage": "@PROJECT_PATH@/assets/images/pavan-trikutam-7740-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/becca-tapert-qofjunxy9ly-unsplash-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -7092,53 +7093,37 @@
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.3"
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.25,
+            "showIcons": true,
+            "iconsColor": "#fff",
+            "icon1": "fa-calendar",
+            "icon2": "fa-tachometer",
+            "icon3": "fa-certificate",
+            "icon4": "fa-users",
+            "showTitles": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "pull-left",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mdi7gq5c9-1400x1400-60.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "title": "Evidence-based <b>Guidelines and Resources&nbsp;</b>",
-          "text": "Access the latest evidence-based guidelines for research, policy and practice&nbsp;<br>",
-          "buttons": "<a data-app-btn=\"true\" href=\"Guidelines.html#msg-box8-3f\" class=\"btn btn-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Young People and Social Media<i class=\"fa fa-play\"></i></a>   ",
+          "title": "<b>\"My teachers don't have a clue\"</b>",
+          "title1": "12 months",
+          "title2": "Study at your pace&nbsp;",
+          "title3": "Certification Available",
+          "title4": "Learn with others",
+          "text": "This online course is designed to support teachers to better understand <br>how to use digital technologies in positive and informed ways.<br><br><b>Start Date September 16th&nbsp;</b><br>",
+          "buttons": "  <a data-app-btn=\"true\" href=\"https://forms.gle/wTXaiNYze1HBjHWP6\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SIGN UP</a> ",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header18",
-          "_styles": {
-            "H3": {
-              "text-align": "left"
-            },
-            "P": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "18px"
-            },
-            ".btn": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "header18-3e"
+          "_name": "header7",
+          "_anchor": "header7-3e"
         },
         {
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showMedia": true,
-            "showButtons": true,
+            "tabs": "5",
             "paddingTop": 2,
-            "paddingBottom": 0,
+            "paddingBottom": 2,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
@@ -7152,39 +7137,33 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive center-content",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/animation-1.gif",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "title": "<b>Case Studies and Guidelines </b>on Young People’s Uses of Social Media",
-          "text": "These evidence-based case studies and guidelines demonstrate the varying ways young people use social media and the impacts of this behaviour on their health and wellbeing. .<br><br>The case studies are based on evidence generated with 1346 young people in the UK who worked with us to communicate their experiences of social media. <br><br>The guidelines were constructed with an multi-disciplinary and multi-sector advisory board of key stakeholders who have a responsibility for young people’s health and wellbeing. This work was supported by the Wellcome Trust [201601/Z/16/Z].<br><br><b>The case studies and guidelines are relevant to adults who have a responsibility for young people’s health and wellbeing. <br></b><br>If you would like to use these guidelines and videos in your professional organisation or would like more information about the project please contact <a href=\"mailto:v.a.goodyear@bham.ac.uk\" class=\"text-info\">Dr Victoria Goodyear.</a>",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://epapers.bham.ac.uk/3070/\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GUIDELINES<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"http://dx.doi.org/10.1080/13573322.2017.1423464\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PAPER<i class=\"fa fa-android\"></i></a> <a data-app-btn=\"true\" href=\"Socialmedia.html#msg-box10-39\" class=\"btn mbr-title-font btn-lg btn-warning\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIDEOs<i class=\"fa fa-android\"></i></a>",
+          "title": "COURSE OVERVIEW",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseOnemsg-box6-3q\" aria-expanded=\"false\" aria-controls=\"collapseOne\">WHY JOIN THIS COURSE?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseTwomsg-box6-3q\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">THE COURSE</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseThreemsg-box6-3q\" aria-expanded=\"true\" aria-controls=\"collapseThree\">LEARN WITH EXPERTS</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseFourmsg-box6-3q\" aria-expanded=\"true\" aria-controls=\"collapseFour\">COURSE CONTENT AND STRUCTURE</a>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseFivemsg-box6-3q\" aria-expanded=\"true\" aria-controls=\"collapseFive\">WHO IS THE COURSE FOR?</a>",
+          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-3q\" data-core=\"\" href=\"#collapseSixmsg-box6-3q\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Who is the course for?</a>",
+          "text1": "<p><b>Young people make extensive use of social media.</b> </p><br><p>This level of engagement is inevitably impacting on their learning, and their health and wellbeing. If, as teachers, we want to reach young people and understand something of thier worlds and offer support, we need to know how they engage with social media, what they learn from it and how that may influence their health and wellbeing. While many influences may be positive, there are also likely to be periods of vulnerability in young people’s lives where the sheer scale, intensity and pervasiveness of social media could act to intensify those vulnerabilities.&nbsp;</p>",
+          "text2": "<p>This online professional development course is designed to support primary, secondary and pre-service teachers from a range of subject areas – as well as support staff - better understand how to use the power of digital technologies in positive and informed ways to support, develop and improve young people’s earning, and their health and wellbeing. </p><br><p>By the end of the course you will:</p><p><br></p><p><b>1. Have an enhanced understanding of the complex and dynmaic ways in which young people navigate social media, and the ways in which social media shapes learning and health and wellbeing&nbsp;</b></p><p><b>2. Develop the ability to evaluate, design and use digital resources with your students</b></p><p><b>3. Have an enhanced level of confience to engage with social media in delivering education, and in support young people’s health and wellbeing&nbsp;</b></p>",
+          "text3": "<p>The course has been developed by the School of Sport, Exercise and Rehabilitation Sciences at the University of Birmingham, UK. </p><br><p>It is led by <a href=\"http://v.goodyear.bham.ac.uk\" target=\"_blank\">Dr Victoria Goodyear,</a> who has extensive experience of supporting teachers, through online CPD, video blogging and social media.</p>",
+          "text4": "<p>The course is online and free, and will take place over 12 months and cover 3 main topics</p><p><br></p><p><b>1. Understanding how young people use and navigate social media for thier learning, and health and wellbeing</b> - you will learn from young people about how they use social media, and be supported to enage with your students about their social media engagemnt&nbsp;</p><p><b>2. Designing a social media curriculum/pedagogical practices</b> - you will be supported to design and then test different approaches using social media to help your students learn&nbsp;</p><p><b>3. Evaluation</b> - we will provide you with new tools to evaluate your practice and student learning, in a social media context</p><p><b>4. Best Practice </b>- you will be invited to present in our online conference and enter a competion to publish your curriculum/pedagogical approach in our forthcoming book.&nbsp;</p>",
+          "text5": "<p><b>Pastoral Care</b>: Educators confidence and ability to be attentive CYP’s digital needs will be improved, maximising the support they receive from tutors</p><p><b>Computer Science/ICT Education</b>: Educators capacity to design curricula that reflects CYP’s complex and dynamic uses of contemporary digital technologies and media will be strengthened</p><p><b>Personal Social and Health Education/Citizenship</b>: Educators capacity to develop young people’s digital literacy skills in this curriculum area will be improved (this is a key priority area for education in the UK within this subject field)</p><p><b>Physical and Health Education</b>: Educators capabilities to use digital technologies in relevant ways to support health and wellbeing education will be strengthened.&nbsp;</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-3f"
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-3q"
         },
         {
           "_params": {
-            "bgImageRadio": false,
-            "paddingTop": "0",
+            "showTitle": true,
+            "elements": "4",
+            "paddingTop": 2,
             "paddingBottom": 2,
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "parallax": false,
             "bgColorRadio": true,
@@ -7199,85 +7178,164 @@
           },
           "media1": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/unknown-413x122.png",
+              "class": "img-responsive center-block",
+              "width": 600,
               "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/conclusion-snapshot-9-oct-2017-165955-1400x787.png",
               "link": "",
               "alt": "",
               "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
             }
           },
-          "title1": "Bakery egg foods around the world",
-          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text1": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
           "media2": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/newlogowhite-1-192x192.png",
+              "class": "img-responsive center-block",
+              "width": 600,
               "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "title2": "Bakery egg foods around the world",
-          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
           "media3": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/chargedupedu-2-600x159.png",
+              "class": "img-responsive center-block",
+              "width": 600,
               "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "title3": "Bakery egg foods around the world",
-          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
           "media4": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/google-450x172.png",
+              "class": "img-responsive center-block",
+              "width": 600,
               "active": true,
-              "class": "mbr-figure__img img-responsive post-thumb",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "title4": "Bakery egg foods around the world",
-          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
-          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore mbr-primary-color mbr-title-font\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/5.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title": "DEVELOPED BY",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box21",
-          "_anchor": "msg-box21-3g"
+          "_name": "features7",
+          "_anchor": "features7-3z"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showAuthorName": true,
+            "bgImageRadio": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p1010285-1920x1080-1-1920x1080-44-600x338-16-removebg-preview-1-600x338.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ka-1920x1080-80-600x338-44-removebg-preview-600x338.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/tests-1920x1080-67-1920x1080-76-600x338-58-removebg-preview-600x338.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/me1-851x1064.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title": "Who will you learn with?",
+          "text1_1": "I'm a previous teacher, now lecturer, and I work with teachers and youth in schools. I'll be taking your through the content. Hope your ready for an interactive, engaging and fun time<br>",
+          "text1_2": "Vicky Goodyear",
+          "text2_1": "I am an academic, teacher and researcher and I am passionate about CPD. I look forward to sharing ideas and learning alongside you. Can't wait to get started!<br>",
+          "text2_2": "KATHLEEN ARMOUR",
+          "text3_1": "Hi Everyone, <br>As a researcher and practitioner in coaching and youth sport, I'm looking forward to working with you in developing new ideas for creative practice.<br>",
+          "text3_2": "Mark Griffiths<br>",
+          "text4_1": "Originally from England, taught in England, China and Saudi Arabia across all ages. I have presented at a number of conferences across the world sharing his love of physical education and meaningful technology to educators from all subjects, not just PE.<br>",
+          "text4_2": "Adam Llevo",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "_anchor": "testimonials3-3s"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/conclusion-snapshot-9-oct-2017-165955-1400x7871.png",
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.8"
+          },
+          "title": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfKgX7MEcFRlFNeelwzftT-uH3X07bRIi44qeon5cNgyYqQ8g/viewform?usp=sf_link\" target=\"_blank\" class=\"text-info\">SIGN UP</a> TODAY",
+          "text": "<span style=\"font-style: normal;\">This online course is designed to support teachers to better understand </span><br><span style=\"font-style: normal;\">how to use digital technologies in <b>positive and informed ways.</b></span>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "parallax1",
+          "_anchor": "parallax1-3x"
         }
       ]
     }
