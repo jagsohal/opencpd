@@ -119,7 +119,7 @@
               "border-color": "#fff"
             },
             ".btn": {
-              "font-size": "12px",
+              "font-size": "16px",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             },
@@ -164,8 +164,8 @@
             "showTitles": true
           },
           "title": "<b>#opencpd</b>",
-          "text": "Changing the design, content, delivery and evaluation of CPD for PE teachers and youth sport coaches.<br>",
-          "buttons": "<a data-app-btn=\"true\" href=\"course.html\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">NEW COURSE</a> <a data-app-btn=\"true\" href=\"course.html\" class=\"btn btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\">SIGN UP</a> ",
+          "text": "Changing the design, content, delivery and evaluation of CPD for PE teachers and youth sport coaches.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"course.html\" class=\"btn btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">NEW <span style=\"font-weight: normal;\">COURSE</span></a>  ",
           "title1": "Innovative",
           "title2": "Accessible",
           "title3": "Evidence Based",
@@ -7106,17 +7106,25 @@
           },
           "title": "<b>\"My teachers don't have a clue\"</b>",
           "title1": "12 months",
-          "title2": "Study at your pace&nbsp;",
+          "title2": "Study <br>at your pace&nbsp;",
           "title3": "Certification Available",
-          "title4": "Learn with others",
-          "text": "This online course is designed to support teachers to better understand <br>how to use digital technologies in positive and informed ways.<br><br><b>Start Date September 16th&nbsp;</b><br>",
+          "title4": "Learn <br>with others",
+          "text": "This online course is designed to support teachers to better understand how to use digital technologies in positive and informed ways.<br><br><b>Start Date September 16th&nbsp;</b><br>",
           "buttons": "  <a data-app-btn=\"true\" href=\"https://forms.gle/wTXaiNYze1HBjHWP6\" class=\"btn mbr-title-font btn-lg btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SIGN UP</a> ",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header7",
-          "_anchor": "header7-3e"
+          "_anchor": "header7-3e",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            },
+            "H5": {
+              "font-size": "14px"
+            }
+          }
         },
         {
           "_params": {
@@ -7329,7 +7337,7 @@
             "overlayOpacity": "0.8"
           },
           "title": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfKgX7MEcFRlFNeelwzftT-uH3X07bRIi44qeon5cNgyYqQ8g/viewform?usp=sf_link\" target=\"_blank\" class=\"text-info\">SIGN UP</a> TODAY",
-          "text": "<span style=\"font-style: normal;\">This online course is designed to support teachers to better understand </span><br><span style=\"font-style: normal;\">how to use digital technologies in <b>positive and informed ways.</b></span>",
+          "text": "<span style=\"font-style: normal;\">This online course is designed to support teachers to better understand </span><span style=\"font-style: normal;\">how to use digital technologies in <b>positive and informed ways.</b></span>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"

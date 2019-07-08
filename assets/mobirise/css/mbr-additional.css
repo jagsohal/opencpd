@@ -201,7 +201,7 @@ p {
   border-color: #fff;
 }
 #header7-4 .btn {
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
 #header7-4 H5 {
@@ -2098,4 +2098,10 @@ p {
 }
 #extFooter1-3d UL {
   color: #7a7c7e;
+}
+#header7-3e P {
+  font-size: 20px;
+}
+#header7-3e H5 {
+  font-size: 14px;
 }
